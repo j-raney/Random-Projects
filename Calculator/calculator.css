@@ -1,20 +1,33 @@
-#calculator {
+body
+{
+    max-width: 400px;
+    margin: auto;
+}
+
+#calculator
+{
     border: 1px solid;
     width: 400px;
     padding: 4px;
 }
 
-#input {
-    font-size: 20pt;
+#input
+{
+    font-size: 30pt;
     height: 1em;
+    text-align: right;
 }
 
-#output {
-    font-size: 80pt;
+#output
+{
+    font-size: 60pt;
+    margin: -8px 0 4px 0;
     height: 1em;
+    text-align: right;
 }
 
-#buttons {
+#buttons
+{
     height: 500px;
     width: 100%;
     display: grid;
@@ -22,11 +35,13 @@
     grid-template-rows: 20%;
 }
 
-.button {
+.button
+{
     font-size: 40pt;
     margin: 4px;
 }
 
-#equals {
+#equals
+{
     grid-column: 3 / 5;
 }
