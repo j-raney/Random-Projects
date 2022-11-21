@@ -1,0 +1,32 @@
+#calculator {
+    border: 1px solid;
+    width: 400px;
+    padding: 4px;
+}
+
+#input {
+    font-size: 20pt;
+    height: 1em;
+}
+
+#output {
+    font-size: 80pt;
+    height: 1em;
+}
+
+#buttons {
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 20%;
+}
+
+.button {
+    font-size: 40pt;
+    margin: 4px;
+}
+
+#equals {
+    grid-column: 3 / 5;
+}
